@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    background-color: rgba(134, 173, 110, 0.882);
+    z-index: 600;
+    height: 70px;
+    width:100%;
+    position: fixed;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 0 15px;
+    top: 4%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+}
+nav a{
+    color: rgb(177, 43, 43);
+    margin: 5px;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: rgb(172, 154, 20);
+    color: brown;
+    border-radius: 20px;
+    transition: 0.2s; 
+}
+a:link,a:visited,a:active{
+    text-decoration: none;
+}
+main{ /* NEw */
+    position: absolute;
+    width: 100%;
+}
+.opening{
+    background-image: linear-gradient( #426694 ,#ffff);
+    position: relative;
+    top: 28%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.appu{
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+}
+.about p{
+
+    padding-left: 26px;
+}
+.about p:first-letter{
+    font-size: 50px;
+    padding-left: 26px;
+}
+#proj{
+    margin-top: 250px;
+}
+#proj h2{
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#proj .card{
+    margin: 20px;
+}.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(44, 158, 147, 0.2);
+    box color: #000;
+    transition: 0.3s;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(90, 197, 188, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+#contact{
+    margin-top: 100px;
+    height: 500px;
+    width: 700px;
+    margin-left: 0cap;
+}
+#contact h2{
+    margin-bottom: 20px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #4cb038;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    padding: 20;
+}
+footer h6{
+    margin: 20px;
+
+}
